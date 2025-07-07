@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/DanKRT-Star/social-links-profile-main.git
+- Solution URL: https://github.com/DanKRT-Star/social-links-profile-main
 - Live Site URL: https://yourusername.github.io/social-links-profile/
 
 ## My process
