@@ -14,7 +14,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/DanKRT-Star/social-links-profile-main
-- Live Site URL: https://yourusername.github.io/social-links-profile/
+- Live Site URL: https://social-links-profile-main-phi-ten.vercel.app/
 
 ## My process
 
