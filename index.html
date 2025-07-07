@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --Green: hsl(75, 94%, 57%);
+      --White: hsl(0, 0%, 100%);
+      --Grey-700: hsl(0, 0%, 20%);
+      --Grey-800: hsl(0, 0%, 12%);
+      --Grey-900: hsl(0, 0%, 8%);
+    }
+
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 14px;
+      height: 100vh;
+      color: var(--White);
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      background-color: var(--Grey-900);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .profile-container {
+      background-color: var(--Grey-800);
+      padding: 25px;
+      width: min(90%, 320px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .profile-container > * {
+      margin-bottom: 15px;
+    }
+
+    .profile-container img {
+      border-radius: 50%;
+      width: 64px;
+      object-fit: cover;
+    }
+
+    .profile-container .user-info .location {
+      font-weight: 700;
+      color: var(--Green);
+    }
+
+    .profile-container .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+
+    .button-container button {
+      background-color: var(--Grey-700);
+      border: none;
+      outline: none;
+      width: 100%;
+      padding: 10px;
+      color: var(--White);
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button-container button:hover {
+      background-color: var(--Green);
+      color: var(--Grey-800);
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: var(--Green); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="profile-container">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="avatar-jessica image"/>
+      <div class="user-info">
+        <h1>Jessica Randall</h1>
+        <p class="location">London, United Kingdom</p>
+      </div>
+
+      <div><p>"Front-end developer and avid reader."</p></div>
+
+      <div class="button-container">
+        <button>GitHub</button>
+        <button>Frontend Mentor</button>
+        <button>LinkedIn</button>
+        <button>Twitter</button>
+        <button>Instagram</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Lê Mạnh Đan</a>.
+  </div>
+  </main>
+</body>
+</html>
